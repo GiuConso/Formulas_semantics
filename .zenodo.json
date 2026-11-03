@@ -1,0 +1,32 @@
+{
+  "title": "Formulas and Semantics in Digital Diplomatics: Research Data and Analysis Materials",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Consolo, Giuseppe",
+      "affiliation": "University of Graz"
+    },
+    {
+      "name": "Kovács, Tamás",
+      "affiliation": "University of Graz"
+    },
+    {
+      "name": "Vogeler, Georg",
+      "affiliation": "University of Graz"
+    }
+  ],
+  "description": "<p>Research data and analysis materials accompanying the paper <em>Formulas and Semantics in Digital Diplomatics</em>.</p><p>The corpus comprises sixteen notarial charters dated between 1393 and 1486, preserved in the Biblioteca Comunale Sabino Loffredo in Barletta (BCSL). The deposit includes human-validated ANNIE annotations in JSONL, a Jupyter notebook integrating ANNIE and FLAME analyses, and the FLAME outputs used by the notebook.</p><p>A repertoire of fourteen clause categories is provided in CSV and RDF/SKOS, with definitions, recognition criteria, documented alignments with the <em>Vocabulaire international de la diplomatique</em>, and corpus examples linked to document identifiers and character offsets.</p>",
+  "access_right": "open",
+  "license": "other-open",
+  "notes": "Licensing is component-specific. Original research data, annotations, the clause repertoire, and documentation are licensed under Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Original software code is licensed under the MIT License. See LICENSE-DATA.md and LICENSE for the respective terms. Third-party materials and components retain their original licenses.",
+  "keywords": [
+    "digital diplomatics",
+    "notarial charters",
+    "clause repertoire",
+    "ANNIE",
+    "FLAME",
+    "RDF",
+    "SKOS"
+  ]
+}
