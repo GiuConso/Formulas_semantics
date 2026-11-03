@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+    <dct:title xml:lang="en">BCSL clause repertoire for Formulas and Semantics in Digital Diplomatics</dct:title>
+    <dct:description xml:lang="en">Fourteen operational clause categories used to annotate sixteen BCSL notarial charters (1393-1486), with documented mappings to the VID.</dct:description>
+    <dct:creator>Giuseppe Consolo</dct:creator>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-03</dct:created>
+    <owl:versionInfo>0.1.2</owl:versionInfo>
+    <dct:source rdf:resource="https://raw.githubusercontent.com/GVogeler/VID/cb6ffbb9cfa4cd820a5b0d0fd001a6f49a9c0599/skos/VID.rdf.xml" />
+    <dct:source rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/BCSL_Evora.jsonl" />
+    <dct:source>Giuseppe Consolo, Tamás Kovács and Georg Vogeler, Formulas and Semantics in Digital Diplomatics, section 2.3.</dct:source>
+    <dct:isPartOf rdf:resource="https://github.com/GiuConso/Formulas_semantics" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#capitulum" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#defensio" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#fideiussio" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#iuramentum" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#obligatio" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#pactum-revocationis" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#precarium" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#prorogatio-iurisdictionis" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#renuntiatio" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#restitutio-cum-melioratione" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#restitutio-in-integrum" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#restrictio-alienationis" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#sanctio-negativa" />
+    <skos:hasTopConcept rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#stipulatio" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#capitulum">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>CAPITULUM</skos:notation>
+    <skos:prefLabel xml:lang="la">capitulum</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Collegial monastic action</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause recording the assembly and collegial action of a monastic community for the transaction documented in the act.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include formulations establishing the assembled community as a chapter acting collectively, including its convocation and the constitution of the assembly for the business at hand.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish the assembled community from an article or textual division called capitulum, and from a simple mention of a monastery or its members.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">The checked VID has no equivalent entry for this operational category. VID 200 uses capitulum for an article or division of a text; its meaning differs from the monastic assembly annotated here.</skos:editorialNote>
+    <skos:example xml:lang="la">ad sonum campanelle congregatas pro maiori et seniori parte ipsarum et capitulum facientes et tenentes pro infrascriptis earum agendis, ut dixerunt.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_22-CAPITULUM-1681-1829" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#defensio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>DEFENSIO</skos:notation>
+    <skos:prefLabel xml:lang="la">defensio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Warranty against third-party claims</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause by which a party undertakes to defend the transferred or granted property, right, or benefit against third-party claims and eviction.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include undertakings to defendere, antistare, or otherwise defend the transferred object or right ab omnibus hominibus, together with associated provisions on eviction where present.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish this warranty from the general pledge of assets securing performance and from a separate third party's assumption of the warranty obligation.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 220 concerns the assignment of present and future assets as security for performance. The corpus category concerns defence against third-party claims. The two mechanisms have an associative relationship within contractual security; the entry does not define an eviction warranty and is not an equivalent concept.</skos:editorialNote>
+    <skos:example xml:lang="la">quatenus ipsa venditrix et sui heredes dictam domum, loco et finibus superius designatam, cum iuribus suis omnibus sorori Petrelle et suis successoribus francam liberam et exemptam ab onere servitutis et solucionis alicuius quicquamque defendant et defendere teneantur et debeant ab omnibus hominibus.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_18-DEFENSIO-3915-4216" />
+    <skos:relatedMatch rdf:resource="http://www.cei.lmu.de/VID/#VID_220" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#fideiussio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>FIDEJUSSIO</skos:notation>
+    <skos:prefLabel xml:lang="la">fideiussio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Third-party personal guarantee</skos:prefLabel>
+    <skos:altLabel xml:lang="la">fidejussio</skos:altLabel>
+    <skos:definition xml:lang="en">Clause by which a third party assumes a personal obligation to secure the principal party's performance, including defence against third-party claims and eviction.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include a third party's express assumption of the burden of defence and the binding of that party, their assets, or their successors as recorded in the act. In both BCSL 18 and BCSL 21, the guarantor also takes the oath recorded in the separate IURAMENTUM passage.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish this additional obligation from the principal party's own warranty and from the mere presence of a husband or mundualdus without an express guarantee.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 221a-d describe forms of third-party guarantee. In BCSL 18 the husband binds himself and his assets defensorio et fideiussorio nomine; in BCSL 21 he assumes the defence and waives prior recourse against the principal debtor. Both guarantors swear on the Gospels in the IURAMENTUM passages. The personal undertaking and commitment of assets make VID 221b the closest specific entry. The close mapping relates the corpus category to this form of guarantee while preserving the distinctions among the four VID entries.</skos:editorialNote>
+    <skos:example xml:lang="la">Et proinde ipsa Zocia venditrix penes eundem fratrem Nicolaum, ibidem presentem et stipulantem ac recipientem nominibus quibus supra, defensorem dedit et posuit prefatum notarium Nicolaum virum suum, ibidem presentem volentem et sponte ad predictam et pro predictis defensionem ipsam suscipien­tem ac sese et bona sua omnia defensorio et fideiussorio nomine voluntarie obligantem dicto fratri Nicolao, presenti et stipulanti nominibus quibus supra, guadia et sollemni stipulacione inde adhibitis et intervenientibus ad predicta.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_18-FIDEJUSSIO-4217-4745" />
+    <skos:closeMatch rdf:resource="http://www.cei.lmu.de/VID/#VID_221b" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#iuramentum">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>IURAMENTUM</skos:notation>
+    <skos:prefLabel xml:lang="la">iuramentum</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Oath clause</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause recording an oath to fulfil and observe the provisions of the act, normally sworn on the Gospels.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include explicit declarations of an oath securing observance of the transaction, including references to the Gospels being physically touched.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish the oath clause from an ordinary promise, a stipulation, and references to an oath occurring only in the narrative of another event.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 218 defines the oath clause securing observance of the act through an oath on the Gospels. This is the same function and object as the annotated category; a shared Latin label in the VID is unnecessary for conceptual equivalence.</skos:editorialNote>
+    <skos:example xml:lang="la">Maioris quoque securitatis causa voluntarie prefatus magister Ciccus eidem procuratori presenti et recipienti iuravit supra sancta dei evangelia per eum corporaliter tacta predicta omnia et singula que et qualiter preleguntur eisdem priorisse monialiam et conventui et eis succedentibus adimplere attendere et observare et contra non facere dicere opponere vel venire de iure vel de facto seu modo quocumque.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_14-IURAMENTUM-12075-12483" />
+    <skos:exactMatch rdf:resource="http://www.cei.lmu.de/VID/#VID_218" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#obligatio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>OBLIGATIO</skos:notation>
+    <skos:prefLabel xml:lang="la">obligatio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Patrimonial obligation</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause binding a party and their property, and where specified their heirs or successors, to the performance of the act.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include commitments binding the party's present or future assets to performance, including associated pledges and enforcement provisions within the annotated passage.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish the principal obligation from a separately assumed third-party guarantee, a defence against eviction, and the penalty imposed for breach.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 219 defines the binding of the party, their person and assets, and potentially their successors to performance of the act. The corpus category has this function, even where its annotated span also contains collateral or enforcement provisions.</skos:editorialNote>
+    <skos:example xml:lang="la">Pro quibus omnibus et singulis adimplendis per ipsum magistrum Ciccum et suos heredes eisdem priorisse monialibus et conventui et eis succedentibus inviolabiliter observandis et contra non contraveniendo voluntarie prefatus magister Ciccus venditor eidem fratri Iohanni. Presenti recipienti et stipulanti ab eo procuratorio nomine quo supra anteposuit ipothecavit et obligavit omnia et singula bona sua et heredum suorum mobilia et stabilia licita et illicita presencia et futura existencia ubicumque cum potestate capiendi bona ipsa per ipsas priorissam moniales et conventum et sicut causarum autem propria nullius proinde curie iudicis presidis seu pretoris expectata licencia seu mandato ipsaque bona incontinenti vendendi et quolibet alienacionis titulo distrahendi servatis vel non servatis sollempnitatibus iuris et facti que in talibus requiruntur a iure donec prelecta omnia et singula, que et qualiter preleguntur, per ipsum magistrum Ciccum venditorem et suos heredes ipsis priorisse monialibus et conventui et successoribus suis adimpleantur et observentur et se proinde tam iudicio quam extra iudicium presentes dicto quoque magistro Cicco venditore et suis heredibus defendentibus ipsi monasterio anteposicionem et obligacionem ipsas et quibus eas vendiderunt ab omnibus hominibus.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_14-OBLIGATIO-8425-9720" />
+    <skos:exactMatch rdf:resource="http://www.cei.lmu.de/VID/#VID_219" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#pactum-revocationis">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>PACTUM_REVOCATIONIS</skos:notation>
+    <skos:prefLabel xml:lang="la">pactum revocationis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Contractual revocation with reimbursement</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause allowing the purchaser or purchasing monastery to return the acquired annual rent, requiring the sellers to reimburse the purchase price and take back the rent with the associated ownership and possession.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include the optional return and reimbursement arrangement expressly agreed in BCSL 20, including its provisions for rent already received.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish this contractual option from forfeiture following non-performance, restitution including improvements, and the revocation of an authentication device such as a seal.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">No equivalent entry was identified in the checked VID for this specific return-and-reimbursement arrangement. The isolated annotation supports a corpus-specific category, rather than a claim about every form of contractual revocation.</skos:editorialNote>
+    <skos:example xml:lang="la">pacto eciam habito inter ipsos venditores ex una parte et prefatam sororem Mitulam ex altera quod, ubi et quandocumque ipsa vel dictum monasterium noluerit presentem vendicionem et empcionem acceptare et eisdem Petruccio et Nicolao dictum censum restituere, teneantur dicti venditores, sicutque promiserunt dicte sorori Mitule stipulanti ut supra, restituere sibi et dicto monasterio dictas uncias sex, pretium dicte vendicionis, et dictum annuum censum ad eos dictamque proprietatem et possessionem revocare sine excepcione forte receptorum de dicto censu per eam vel eius monasterium supradictum, quod in censu predicto donaverunt ex iure dicto monasterio titulo donacionis irrevocabilis inter vivos et elemo sinaliter pro anima defunctorum suorum, quia sic convenerunt ex pacto solempni stipulacione vestito predicto die coram nobis.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_20-PACTUM_REVOCATIONIS-6218-7054" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#precarium">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>PRECARIUM</skos:notation>
+    <skos:prefLabel xml:lang="la">precarium</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Continued holding precario nomine</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause recording that the transferor continues to hold the transferred property or right precario nomine on behalf of the purchaser, with several formulations specifying the purchaser's acquisition of corporeal possession or power of revocation.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include express declarations of continued holding precario or precario nomine following the transfer, read in their possessory context.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish this possessory clause from the early medieval act called precaria, from a grant subject to annual rent, and from a generic reference to possession.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 448 defines the early medieval documentary transaction of precaria/prestaria. That entry is not the clause of continued holding annotated in this corpus; lexical similarity does not justify a mapping.</skos:editorialNote>
+    <skos:example xml:lang="la">interim tamen, quousque prefate priorissa et moniales et conventus dicte domus et iardinelli possessionem adepti fuerint corporalem, prefatus magister Ciccus confexus est illam precario possidere.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_14-PRECARIUM-7318-7514" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#prorogatio-iurisdictionis">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>PROROGATIO_IURISDICTIONIS</skos:notation>
+    <skos:prefLabel xml:lang="la">prorogatio iurisdictionis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Voluntary extension of jurisdiction and office</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause by which an actor consents to the competence of the documenting officials and voluntarily submits to or extends their jurisdiction, sometimes together with their office, often declaring prior awareness of not ordinarily being subject to them.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include formulations using prorogare, submittere, or subicere for the actor's acceptance of the officials' authority. Explicit declarations of non-subjection and references to officium vary across the annotated passages.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish the positive act of submission or extension from a mere reference to the ecclesiastical forum, a waiver of a legal exception, and a generic mention of an official's jurisdiction.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 235 defines a clause selecting competent courts for disputes over performance. The annotated passages likewise concern voluntary submission to authority, but they concern the documenting judge and notary, sometimes witnesses, and may expressly extend officium as well as iurisdictio. The functional correspondence stated in the paper is supported; identity with an ordinary forum-selection clause is not asserted. VID 232 supplies context for the ecclesiastical forum, not an equivalent concept.</skos:editorialNote>
+    <skos:example xml:lang="la">que quidem moniales et prior ipse consentientes prius in nos prefatos iudicem et notarium ut in suos cum scirent expresse et ex certa eorum scientia nos eorum iudicem et notarium in hac parte non esse nec fore nostre iurisdicioni subiectos iurisdicionem nostram et officium nostrum in se voluntarie prorogando</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_29-PROROGATIO_IURISDICTIONIS-1421-1730" />
+    <skos:closeMatch rdf:resource="http://www.cei.lmu.de/VID/#VID_235" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#renuntiatio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>RENUNTIATIO</skos:notation>
+    <skos:prefLabel xml:lang="la">renuntiatio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Waiver of legal exceptions</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause by which a party waives in advance legal exceptions, remedies, or privileges that could invalidate the transaction or prevent or delay its performance.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include special and general waivers of exceptions and remedies, including a waiver of the beneficium restitutionis in integrum where it appears within the renunciation.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish the waiver of a restitution remedy from an operative clause requiring the return of property following non-performance.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 222 defines the advance waiver of exceptions that could annul the contract or impede its performance. This is the function of the annotated renunciation passages, including their lists of special and general waivers.</skos:editorialNote>
+    <skos:example xml:lang="la">Super quibus omnibus et eorum singulis voluntarie dictus magister Ciccus venditor pro se et suis heredibus eidem procuratori presenti recipienti et stipulanti ab eo predicto nomine quo supra renunciavit expresse et ex certa eius scientia speciali excepcioni doli mali, metus et in factum accioni, excepcioni predicte rei aliter geste quam scripte et presentis non sic celebrati contractus omni et utriusque iuris auxilo canonici et civilis iuri scripto et non scripto usui consuetudinario, constitucionario longo bardo expecioni ipsius precii per eumque vendicione non recepti et habiti et per ipsum emptore sibi non nullam in assegnati legi rem maioris precii per quam deceptis in vendicionibus ultra dimidiam iusti precii subvenitur iuri legi consuetudini, que penam prohibent in contractibus adhiberi adhibitam non valere consuetudini qua cavetur quod pena apposita in contractu nullum sortiatur effectum singulisque aliis iuribus legibus excepcionibus consuetudinibus constitucionibus privilegiis litteris usibus auxiliis beneficiis remediis et statutis quibus seu ipsorum aliquo prefatus magister Ciccus venditor vel sui heredes uti seu iuvare se possent et a presenti obligacione tueri et huius scripti tenor posset, in toto vel in parte minui vel infrangi et specialiter iuri dicenti generalem renunciacionem non valere legi ecciam prohibenti talem renunciacionem fieri.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_14-RENUNTIATIO-10697-12074" />
+    <skos:exactMatch rdf:resource="http://www.cei.lmu.de/VID/#VID_222" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#restitutio-cum-melioratione">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>RESTITUTIO_CUM_MELIORATIONE</skos:notation>
+    <skos:prefLabel xml:lang="la">restitutio cum melioratione</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Restitution including improvements</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause providing for the return or reversion of the property together with improvements made to it, following non-performance of the contractual obligations.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include reversion clauses expressly retaining improvements or benefits made to the property, including formulations referring to meliorationes or beneficium in that sense.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish restitution including improvements from restitution without such an express provision and from a clause merely requiring cultivation or repairs.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 239 defines restitution of property including improvements such as planting or construction. The corpus passages expressly provide for reversion together with the improvements and have the same diplomatic function.</skos:editorialNote>
+    <skos:example xml:lang="la">Item, quod prefatus Nardus conductor et sui heredes possint et valeant et teneantur dictum annuum censum tarenorum quatuor et medii dare et solvere census nomine in dicto termino ipsis monialibus et si cessaverint in solutione dicti census per biennium quod statim cadant a dicta concessione et dicta vinealia cum iuribus et omnibus supradictis ac meliorationibus factis in eis ad dictas moniales deveniant pleno iure. Quodque liceat et licitum sit dictis monialibus auctoritate earum propria sine licentia curie et decreto pretoris sed solo presentis instrumenti vigore, realiter et corporaliter capere et ingredi et ad earum proprium dominium reducere et eciam revocare, omni ipsius conductoris et heredum eius questione cessante.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_25-RESTITUTIO_CUM_MELIORATIONE-3639-4371" />
+    <skos:exactMatch rdf:resource="http://www.cei.lmu.de/VID/#VID_239" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#restitutio-in-integrum">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>RESTITUTIO_IN_INTEGRUM</skos:notation>
+    <skos:prefLabel xml:lang="la">restitutio in integrum</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Restitution of property following non-performance</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause providing for the return or recovery of the property following non-performance of the contractual obligations, such as failure to pay rent or maintain cultivation.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include provisions linking non-performance to forfeiture of the concession and the grantor's recovery or re-entry into the property, in the diplomatic sense of VID 238.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish this operative restitution clause from renunciation of the beneficium restitutionis in integrum and from the separately annotated return expressly including improvements.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 238 defines restitution of the object of the contract following non-performance, with an equivalent-value alternative where return is impossible. The corpus category concerns this operative return of property; the equivalent-value alternative need not occur in every instance. It does not denote the waiver of a restitution remedy inside a renunciation clause.</skos:editorialNote>
+    <skos:example xml:lang="la">quodque si in solucione dicti census vel cultura debita ipsarum vinearum per annum unum cessaverit ipso iure et ipso facto cadat a concessione vinearum ipsarum ipse Nicolaus ac ab ipsis vineis et possessione ipsarum et ipse vinee cum iuribus earum deveniant ad monosterium supradictum liceatque eo casu dicto monosterio, auctori tate propria per se vel alium aut alios pro eo vineas capere et ingredi et apprehendere et ad eorum manus redducere et eciam revocare ipsumque Nicolaum expellere et con pelli facere et convenire super hiis taliter quod ipsum monosterium omni tempore anno quolibet, ut supra, percipiat et consequatur dictum ius tarenorum tresdecim sine impedimento quocumque</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_22-RESTITUTIO_IN_INTEGRUM-8684-9370" />
+    <skos:exactMatch rdf:resource="http://www.cei.lmu.de/VID/#VID_238" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#restrictio-alienationis">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>RESTRICTIO_ALIENATIONIS</skos:notation>
+    <skos:prefLabel xml:lang="la">restrictio alienationis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Restrictions on subsequent alienation</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause regulating the recipient's subsequent transfer of granted property by reserving rent and contractual conditions, excluding specified recipients, or imposing conditions on alienation.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include qualified permissions to sell, exchange, donate, bequeath, or otherwise transfer the property when they preserve rent and contractual conditions and restrict recipients or require prior recourse to the granting institution.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish restrictions on the recipient's later disposition from the present act of transfer, institutional consent to that act, and a generic prohibition of alienation in another legal context.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">No equivalent entry was identified in the checked VID for this contractual category. References to inalienability of dowry property or licences to alienate in mortmain concern different institutions and are not substituted for it.</skos:editorialNote>
+    <skos:example xml:lang="la">videlicet quod dictus Nardus et sui heredes possint et valeant vinealia ipsa durante dicta concessione vendere alienare permutare locare et dislocare salvis tamen annuo censu et pactis predictis ecclesiis et personis ecclesiasticiis poten tioribus vel miserabilibus personis ipsis monialibus dumtaxat exceptis.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_25-RESTRICTIO_ALIENATIONIS-3328-3638" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#sanctio-negativa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>SANCTIO_NEGATIVA</skos:notation>
+    <skos:prefLabel xml:lang="la">sanctio negativa</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Penal clause</skos:prefLabel>
+    <skos:definition xml:lang="en">Clause securing performance of the act by prescribing a penalty against a party who breaches or obstructs its provisions.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include the penalty, its trigger, and associated provisions on payment, beneficiaries, or the continued force of the act within the annotated passage.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish the sanction for non-compliance from a general obligation, an oath to perform, and an operative return of the property.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">VID 237 covers penal clauses securing execution through temporal sanctions, spiritual sanctions, or either type alone. The corpus's temporal penalties fall within that concept; the absence of spiritual sanctions in an instance does not require a different category.</skos:editorialNote>
+    <skos:example xml:lang="la">Contra que omnia et singula vel aliquod premissorum si dictus magister Ciccus venditor vel sui heredes fecerint et prelecta omnia et singula, que et qualiter preleguntur, eisdem priorisse monialibus et conventui et succedentibus eis non adimpleverint et observaverint duplum ipsius pecunie presentacis, precii scilicet vendicionis, pene nomine solvere et componere teneantur et debeant, medietatem scilicet ipsius pene dictis priorisse monialibus et conventui et succedentibus eis et reliquam medietatem pene predicte curie regie vel illi curie coram qua reclamacio ipsa seu querela exinde forte fiet et me predicto notario puplico tamquam persona puplica nomine e et pro parte ipsius curie et dicto procuratore procuratorio nomine quo supra penas ipsas sollempniter et legitime stipulantibus quibus penis solutis vel non solutis aut graciose remissis, presens nichilominus instrumentum cum eadem adieccione penarum et omnibus in eo contentis semper in suo robore perseveret.</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_14-SANCTIO_NEGATIVA-9721-10696" />
+    <skos:exactMatch rdf:resource="http://www.cei.lmu.de/VID/#VID_237" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#stipulatio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:inScheme rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:topConceptOf rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_repertoire.ttl#scheme" />
+    <skos:notation>STIPULATIO</skos:notation>
+    <skos:prefLabel xml:lang="la">stipulatio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Formal stipulation</skos:prefLabel>
+    <skos:definition xml:lang="en">Formula expressly recording the formal stipulation that gives force to a promise, obligation, guarantee, or pact, often together with guadia.</skos:definition>
+    <skos:scopeNote xml:lang="en">Include express formulaic invocations of stipulatio as the formal mechanism accompanying a commitment, such as per guadiam et stipulacionem or a pact described as stipulacione vestitum.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Distinguish an annotated stipulation formula from the mere description of a recipient as stipulans and from the substantive obligation that the formula accompanies.</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">No equivalent standalone entry was identified in the checked VID for the stipulation formulas annotated here. The category is retained with its corpus-specific operational definition.</skos:editorialNote>
+    <skos:example xml:lang="la">per guadiam et stipulacionem legitimam et sollempnem</skos:example>
+    <dct:relation rdf:resource="https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/vocabulary/clause_examples.ttl#BCSL_18-STIPULATIO-3734-3786" />
+  </rdf:Description>
+</rdf:RDF>

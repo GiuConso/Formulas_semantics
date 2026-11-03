@@ -1,0 +1,124 @@
+{
+  "version": "0.1.2",
+  "created": "2026-11-03",
+  "repository": "https://github.com/GiuConso/Formulas_semantics",
+  "dataset_url": "https://raw.githubusercontent.com/GiuConso/Formulas_semantics/main/BCSL_Evora.jsonl",
+  "dataset_content_sha256": "cc16eaa83ee8489657f7db3945608845c9fc715fe107fcbcfec8cd45bd8e5d21",
+  "dataset_hash_method": "SHA-256 of UTF-8 json.dumps(records, ensure_ascii=False, sort_keys=True, separators=(comma, colon)); original record and span array order retained.",
+  "vid_source_commit": "cb6ffbb9cfa4cd820a5b0d0fd001a6f49a9c0599",
+  "vid_source_url": "https://raw.githubusercontent.com/GVogeler/VID/cb6ffbb9cfa4cd820a5b0d0fd001a6f49a9c0599/skos/VID.rdf.xml",
+  "vid_rdfxml_snapshot_sha256": "128d42874267bdababec24cc65666603f86412b7e2ec4bbea7c416021c526647",
+  "document_count": 16,
+  "concept_count": 14,
+  "clause_annotation_count": 135,
+  "mapping_counts": {
+    "no_equivalent_identified": 5,
+    "relatedMatch": 1,
+    "closeMatch": 2,
+    "exactMatch": 6
+  },
+  "document_order_source": "DOC_IDS in Evora_ANNIE_FLAME_Integration.ipynb; the JSONL itself has no document identifiers.",
+  "document_order": [
+    {
+      "document_id": "BCSL_14",
+      "jsonl_record_1based": 1,
+      "text_sha256": "872e3e35d8d27d82e828d008f4cb71aff7cef37917a65a32d083206273c8136b"
+    },
+    {
+      "document_id": "BCSL_18",
+      "jsonl_record_1based": 2,
+      "text_sha256": "3f90fc40cf8395904eccc6fa9cae48dff4a5e26c2cc67039e8861ebc82a25507"
+    },
+    {
+      "document_id": "BCSL_19",
+      "jsonl_record_1based": 3,
+      "text_sha256": "599d27308a26435f393d2e5ac007910d6bad7363fc208e83bb13f7aa09de0f4c"
+    },
+    {
+      "document_id": "BCSL_20",
+      "jsonl_record_1based": 4,
+      "text_sha256": "3562998ad0b44d4c8a71df42b2ee29308b564a441756e1c9451fa2b4c5f8950f"
+    },
+    {
+      "document_id": "BCSL_21",
+      "jsonl_record_1based": 5,
+      "text_sha256": "7436b19d3b9de86d4a2a22112d4178cb238dd25bc4f525a2a765e444715bc4e5"
+    },
+    {
+      "document_id": "BCSL_22",
+      "jsonl_record_1based": 6,
+      "text_sha256": "07cb2fd6a5d7b0594ebca1c336ef265c3bcf6f8db777244130ce86bb924ca957"
+    },
+    {
+      "document_id": "BCSL_23",
+      "jsonl_record_1based": 7,
+      "text_sha256": "381ef292399e4a7d58fd6f88830868330fd2781a3d8e595dce6cce72924f3788"
+    },
+    {
+      "document_id": "BCSL_25",
+      "jsonl_record_1based": 8,
+      "text_sha256": "2507fcbde74c87d9a49f35245e40abb182253fda07743fd5d6d036ecac9662ef"
+    },
+    {
+      "document_id": "BCSL_26",
+      "jsonl_record_1based": 9,
+      "text_sha256": "3c494fe334dbf6c55c11e5b679e3de5da4787e6d4ffa6a7f5e70f2180311772b"
+    },
+    {
+      "document_id": "BCSL_27",
+      "jsonl_record_1based": 10,
+      "text_sha256": "13ec97d8a7785eae9645a502be2d86e8d7112d3a60c68e643c6b682d1b98fdf1"
+    },
+    {
+      "document_id": "BCSL_29",
+      "jsonl_record_1based": 11,
+      "text_sha256": "3fe04ebe2575afa6659b09fb21d6e5daf163c62280188373c994cbe12140ea98"
+    },
+    {
+      "document_id": "BCSL_30",
+      "jsonl_record_1based": 12,
+      "text_sha256": "d5b60d55f71b646d7b1dc4fbfa198f12a8e79cc0d0377d23b7ce1a366e073606"
+    },
+    {
+      "document_id": "BCSL_31",
+      "jsonl_record_1based": 13,
+      "text_sha256": "0500ac00c1165844493bc683fd2dc8eae641d3322bfed00387bf02fc64765e5b"
+    },
+    {
+      "document_id": "BCSL_33",
+      "jsonl_record_1based": 14,
+      "text_sha256": "7d16263c76a95161971648f568d0822fcd8edc4f00377f9eef76ef640c861d57"
+    },
+    {
+      "document_id": "BCSL_35",
+      "jsonl_record_1based": 15,
+      "text_sha256": "a4c76d105a72688dbbcf6b97a137eebbb4aed4c79baff1a322ab53e4ced96dcf"
+    },
+    {
+      "document_id": "BCSL_36",
+      "jsonl_record_1based": 16,
+      "text_sha256": "d07f38e34bc545feaeff966070e15761983eb7e4e8c356491505e87bd792110b"
+    }
+  ],
+  "same_label_overlaps": [
+    {
+      "label": "STIPULATIO",
+      "document": "BCSL_18",
+      "ranges": [
+        [
+          4666,
+          4745
+        ],
+        [
+          4666,
+          4712
+        ]
+      ]
+    }
+  ],
+  "annotation_policy": "All source clause spans retained, including nested spans. Character offsets refer to each record text, not JSON source bytes; zero-based start inclusive and end exclusive.",
+  "graph_triple_counts": {
+    "clause_repertoire": 202,
+    "clause_examples": 1565
+  }
+}
